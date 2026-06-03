@@ -11,7 +11,6 @@ Application de gestion des stages médicaux avec **React (JavaScript)** pour le 
 - **Vite** - Build tool
 - **Tailwind CSS** - Styling
 - **Lucide React** - Icônes
-- **Supabase JS** - Authentification uniquement
 
 ### Backend
 - **Django 5.2** - Framework Python
@@ -43,10 +42,6 @@ pip install -r backend/requirments.txt
 Créez un fichier `.env` à la racine du projet :
 
 ```env
-# Frontend (Supabase Auth)
-VITE_SUPABASE_URL=https://votre-projet.supabase.co
-VITE_SUPABASE_ANON_KEY=votre_cle_anonyme
-
 # Backend (MySQL Database)
 DB_NAME=internship_db
 DB_USER=root
@@ -97,7 +92,7 @@ project/
 
 ## Fonctionnalités
 
-- **Authentification** via Supabase Auth
+- **Authentification** sécurisée via JWT (JSON Web Tokens) avec Django REST Framework
 - **Gestion des stages** (création, consultation)
 - **Candidatures** des étudiants
 - **Upload de documents** (CV, relevés de notes)
@@ -130,5 +125,5 @@ project/
 ## Notes importantes
 
 - Le backend Django utilise **l'ORM** pour toutes les opérations de base de données
-- L'authentification est gérée par **Supabase Auth** côté frontend
+- L'authentification est gérée par **Django (SimpleJWT)** avec stockage local des tokens
 - Les fichiers sont stockés **localement** dans le dossier `uploads/`
