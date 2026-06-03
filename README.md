@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 # Medical Internship Management System
+
+> **A comprehensive Medical Internship Management System** designed to streamline internship placements, student applications, document uploads, and attendance tracking. Built with React (Vite, Tailwind CSS) for a modern frontend, Django REST Framework (Python) for a robust API, and MySQL for secure data persistence.
 
 Application de gestion des stages médicaux avec **React (JavaScript)** pour le frontend et **Django** pour le backend, utilisant **MySQL** comme base de données.
 
@@ -124,7 +125,3 @@ project/
 - Le backend Django utilise **l'ORM** pour toutes les opérations de base de données
 - L'authentification est gérée par **Supabase Auth** côté frontend
 - Les fichiers sont stockés **localement** dans le dossier `uploads/`
-=======
-# medical-internship-management-system
-A comprehensive Medical Internship Management System designed to streamline internship placements, student applications, document uploads, and attendance tracking. Built with React (Vite, Tailwind CSS) for a modern frontend, Django REST Framework (Python) for a robust API, and MySQL for secure data persistence.
->>>>>>> fe036cd3edb65697831215cd2df48addd2fd5922
