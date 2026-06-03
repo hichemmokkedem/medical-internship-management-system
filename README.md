@@ -43,9 +43,16 @@ pip install -r backend/requirments.txt
 Créez un fichier `.env` à la racine du projet :
 
 ```env
+# Frontend (Supabase Auth)
 VITE_SUPABASE_URL=https://votre-projet.supabase.co
-VITE_SUPABASE_ANON_KEY=votre_cle_anon
-DATABASE_PASSWORD=votre_mot_de_passe_db
+VITE_SUPABASE_ANON_KEY=votre_cle_anonyme
+
+# Backend (MySQL Database)
+DB_NAME=internship_db
+DB_USER=root
+DB_PASSWORD=votre_mot_de_passe_mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
 ```
 
 ## Lancement de l'application
